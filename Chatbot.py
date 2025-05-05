@@ -30,7 +30,7 @@ input = st.text_input("Enter your question:", key="input")
 if st.button("Generate"):
     if input:
         response = get_gemini_response(input)
-        st.subheader("🧠 Gemini Response:")
+        st.subheader("🧠 Chatipie's Response:")
         st.write(response)
     else:
         st.warning("Please enter a question before clicking")
