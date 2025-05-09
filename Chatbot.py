@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 
 # Direct API key (secure this in real apps)
-api_key = "GOOGLE_API_KEY"
+api_key = "AIzaSyAvgmMD3PvEtHs28RmzJ4c7lxRhOex4g4Y"
 
 # Gemini response function
 def get_gemini_response(input_text):
